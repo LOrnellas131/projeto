@@ -20,7 +20,12 @@
         @endif
     </head>
     <body class="bg-[#FDFDFC] dark:bg-[#0a0a0a] text-[#1b1b18] flex p-6 lg:p-8 items-center lg:justify-center min-h-screen flex-col">
-        <header class="w-full lg:max-w-4xl max-w-[335px] text-sm mb-6 not-has-[nav]:hidden">
+        <header class="w-full lg:max-w-4xl max-w-[335px] text-sm mb-6 not-has-[nav]:hidden" style="background-color: #dc3545; color: white; padding: 20px;">
+            <nav style="display: flex; justify-content: center; gap: 20px;">
+                <a href="{{ url('/') }}" style="color: white; text-decoration: none; font-weight: bold;">Home</a>
+                <a href="{{ url('/cursos') }}" style="color: white; text-decoration: none; font-weight: bold;">Cursos</a>
+                <a href="{{ url('/contato') }}" style="color: white; text-decoration: none; font-weight: bold;">Contato</a>
+            </nav>
             @if (Route::has('login'))
                 <nav class="flex items-center justify-end gap-4">
                     @auth
