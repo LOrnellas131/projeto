@@ -12,10 +12,15 @@
         <h2>Sobre Nós</h2>
         <div class="sobre-nos-content">
             <div class="video-section">
-                <video width="100%" controls>
-                    <source src="{{ asset('videos/Anúncio ETEC ZL 4 & Knuckles.mp4') }}" type="video/mp4">
-                    Seu navegador não suporta a tag de vídeo.
-                </video>
+                <iframe 
+                    src="https://www.youtube.com/embed/KLv7TwxTicI" 
+                    title="YouTube video player" 
+                    width="100%" 
+                    height="100%" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen>
+                </iframe>
             </div>
             <div class="text-section">
                 <p>Somos uma instituição dedicada à educação e formação profissional. Nossa missão é oferecer cursos de qualidade para preparar os alunos para o mercado de trabalho.</p>
