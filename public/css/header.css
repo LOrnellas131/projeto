@@ -2,7 +2,7 @@
     header {
         background-color: white;
         color: black;
-        padding: 20px;
+        padding: 0px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -12,8 +12,8 @@
     }
     
     header img {
-        width: 15vh;
-        height: 15vh;
+        width: 10vh;
+        height: 10vh;
         position: absolute;
         left: 20px;
     }
@@ -29,6 +29,7 @@
         font-weight: bold;
         padding: 0% 10%;
         border-right: 2px solid black;
+        white-space: nowrap;
     }
 
     header nav a:last-child {
