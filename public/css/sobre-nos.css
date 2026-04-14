@@ -36,3 +36,12 @@
     overflow: hidden;
     object-fit: cover;
 }
+
+.video-section iframe {
+    width: 80%;
+    max-width: 320px;
+    max-height: 64vh;
+    border-radius: 12px;
+    aspect-ratio: 9 / 16;
+    overflow: hidden;
+}
