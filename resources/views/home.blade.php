@@ -33,7 +33,7 @@
                 </article>
                 <article class="highlight-card">
                     <img src="{{ asset('images/tecnologica.jpg') }}" alt="Feira tecnológica">
-                    <h3>Feira Tecnológica 2025</h3>
+                    <h3>Feira Tecnológica 2026</h3>
                     <p>Evento com apresentações, projetos dos alunos e parcerias com empresas do setor tecnológico. Esteja presente nesse evento cheio de inovações para o futuro.</p>
                 </article>
                 <article class="highlight-card">
