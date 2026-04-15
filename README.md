@@ -24,6 +24,7 @@ Instalação
 - Instale o xampp
 - Leve o repositório do projeto ao htdocs
 - Ligue o Apache e MySQL do Xampp
+- Implemente seu vendor/ ao lado dos demais repositórios
 - Abra o repositório pelo terminal e digite: php artisan serve
 - Acesse o link pelo seu navegador de preferência
 - 👍
